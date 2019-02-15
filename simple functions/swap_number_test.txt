@@ -1,0 +1,13 @@
+# Output:
+
+$ python
+Python 3.7.1 (default, Dec 14 2018, 13:28:58) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import swap_numbers
+>>>
+>>> a, b = 4, 6
+>>> a, b = swap_numbers.Swap_num(a, b)
+>>> print("After swap: a: {}, b: {}".format(a, b))
+After swap: a: 6, b: 4
+ 
