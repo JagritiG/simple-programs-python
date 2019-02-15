@@ -1,0 +1,29 @@
+
+# Output:  
+
+$ python
+Python 3.7.1 (default, Dec 14 2018, 13:28:58) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+>>> import average
+>>> 
+>>> given_list = [22, 34, 56, 48, 77]
+>>> avg = average.Average_list_element(given_list)
+>>> print("Average of the elements of given list: {}".format(round(avg, 2)))
+Average of the elements of given list: 47.4
+
+                            OR
+ 
+$ python
+Python 3.7.1 (default, Dec 14 2018, 13:28:58) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> from average import Average_list_element
+>>>
+>>> given_list = [22, 34, 56, 48, 77]
+>>> avg = Average_list_element(given_list)
+>>> print("Average of the elements of given list: {}".format(round(avg, 2)))
+Average of the elements of given list: 47.4
