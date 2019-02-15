@@ -6,4 +6,4 @@ for i in range(0, n):
     element = int(input("Enter element: "))
     new_list.append(element)
 average = sum(new_list)/n
-print("Average of elements in the given list: {0}".format(average))
+print("Average of elements in the given list: {}".format(round(average, 2)))
